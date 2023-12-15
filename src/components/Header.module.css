@@ -1,4 +1,6 @@
 .header {
-  background: #333;
-  height: 200px;
+  background: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  padding: 3.125rem 0;
 }
