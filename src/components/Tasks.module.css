@@ -1,0 +1,21 @@
+.tasks {
+  background: var(--gray-500);
+  border-radius: 5px;
+  border: 1px solid var(--gray-400);
+
+  height: 4.5rem;
+}
+
+.tasks {
+  text-align: center;
+}
+
+.tasks + .tasks {
+  margin-top: 1rem;
+}
+
+.content {
+  line-height: 1.6;
+  color: var(--gray-100);
+  margin-top: 1.5rem;
+}

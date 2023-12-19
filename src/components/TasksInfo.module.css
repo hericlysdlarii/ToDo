@@ -1,0 +1,27 @@
+.infos {
+  width: 46rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1.5rem;
+}
+
+.createdTasks {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.createdTasks strong {
+  color: var(--blue);
+}
+
+.concluded {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.concluded strong {
+  color: var(--purple);
+}
+

@@ -1,10 +1,12 @@
-import { Task } from './Task';
+import { Task } from './components/Tasks';
 import { Header } from './components/Header';
+import { NewTask } from './components/NewTask';
 
 import styles from './App.module.css';
 
 import './global.css'
-import { NewTask } from './components/NewTask';
+import { TasksInfo } from './components/TasksInfo';
+
 
 export function App() {
   return (
@@ -14,12 +16,10 @@ export function App() {
       <div className={styles.wrapper}>
         <NewTask /> 
         <main>
-          <Task 
-            content="Terminar o desafio do Ignite"
-          />
-          <Task 
-            content="Não ficar louco"
-          />
+          <TasksInfo />
+          <Task />
+          <Task />
+          <Task />
         </main>
       </div>
 
