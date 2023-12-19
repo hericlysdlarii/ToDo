@@ -1,6 +1,6 @@
-import styles from './NewTask.module.css';
+import { PlusCircle } from 'phosphor-react';
 
-// import addLogo from '../assets/add.svg';
+import styles from './NewTask.module.css';
 
 export function NewTask() {
   return (
@@ -13,8 +13,8 @@ export function NewTask() {
 
       <footer>
         <button type="submit">
-          Criar +
-          {/* <img src={addLogo} alt="+" />  */}
+          Criar 
+          <PlusCircle size={16} weight="bold" />
         </button>
       </footer>
     </form>
