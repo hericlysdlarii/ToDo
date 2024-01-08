@@ -25,3 +25,19 @@
   color: var(--purple);
 }
 
+.numberOfTasks {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 16px;
+}
+
+.numberOfCompleted {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 16px;
+}
+

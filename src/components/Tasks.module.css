@@ -3,19 +3,41 @@
   border-radius: 5px;
   border: 1px solid var(--gray-400);
 
-  height: 4.5rem;
-}
-
-.tasks {
-  text-align: center;
+  
+  padding: 1rem;
 }
 
 .tasks + .tasks {
   margin-top: 1rem;
 }
 
-.content {
-  line-height: 1.6;
+.content header {
+  /* line-height: 1.6; */
   color: var(--gray-100);
-  margin-top: 1.5rem;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; 
+  gap: 1rem;
 }
+
+.content input {
+  background: transparent;
+}
+
+.content header button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+}
+
+.content header button:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+  
+}
+
+
