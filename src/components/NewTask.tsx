@@ -5,10 +5,13 @@ import styles from './NewTask.module.css';
 export function NewTask() {
   return (
     <form className={styles.newtask}>
-      <textarea 
-        name="comment"
+      <input 
+        type="text" 
+        autoComplete="off"
         placeholder="Adicione uma nova tarefa"
-        required
+        name="task"
+        // value={tasks}
+        // onChange={handleTaskChange}
       />
 
       <footer>

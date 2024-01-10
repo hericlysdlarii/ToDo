@@ -9,9 +9,15 @@ export function Task() {
 
         <header>
 
-          <input 
-            type="checkbox"  
-          />
+          <label className={styles.container}>
+            <input 
+              type="checkbox"
+              // readOnly
+              // checked={task.isComplete}
+              // onClick={handleCheckCompletedTask}  
+            />
+            <span className={styles.checkmark}></span>
+          </label>
 
           <p>Terminar o desafio.  Terminar o desafio. Terminar o desafio. Terminar o desafio. Terminar o desafio.</p>
           

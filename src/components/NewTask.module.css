@@ -1,26 +1,24 @@
 .newtask {
   display: flex;
   align-items: center;
-  height: 3.375rem;
   gap: 0.5rem;
+
 }
 
-.newtask textarea {
+.newtask input {
+  height: 3.375rem;
   border: 1px solid var(--gray-700);
   background: var(--gray-500);
   width: 39.875rem;
   border-radius: 5px;
-
   resize: none;
   color: var(--gray-200);
-
 }
 
-.newtask textarea::placeholder {
+.newtask input::placeholder {
   color: var(--gray-300);
   padding-top: 0.5rem;
   padding-left: 0.5rem;
-  
 }
 
 .newtask footer button {
@@ -28,7 +26,6 @@
   align-items: center;
   justify-content: center;
   gap: 0.4rem;
-
   transition: color 0.1s, backgound-color 0.1s;
 }
 
@@ -40,7 +37,7 @@
 
 .newtask button[type=submit] {
   width: 5.625rem;
-  height: 2.5rem;
+  height: 3.375rem;
   border-radius: 5px;
   border: 0;
   background: var(--blueDark);
